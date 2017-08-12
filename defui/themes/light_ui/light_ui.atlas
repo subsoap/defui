@@ -1,0 +1,36 @@
+images {
+  image: "/defui/themes/light_ui/light_ui_images/button_normal.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/button_pressed.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/checkbox_checked_normal.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/checkbox_checked_pressed.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/checkbox_normal.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/checkbox_pressed.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/input.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/radio_checked_normal.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/radio_checked_pressed.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/radio_normal.png"
+}
+images {
+  image: "/defui/themes/light_ui/light_ui_images/radio_pressed.png"
+}
+margin: 0
+extrude_borders: 8
+inner_padding: 0
