@@ -4,6 +4,7 @@ Fork of dirtylarry GUI library with extra themes and functionality. This is a ha
 # TODO
 * make themes better to add
 * need to disable hover / input on other UI while touch click is held down start on another - take/releas focus
+* holding down input while moving around over a button should not make its image state change like it currently does
 * color picker
 * circular progress bar
 * alerts
