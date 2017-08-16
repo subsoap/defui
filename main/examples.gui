@@ -90,7 +90,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "button_toggle/larrybutton"
+  id: "button_toggle/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -144,9 +144,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Dirty Larry"
-  font: "larryfont"
-  id: "button_toggle/larrylabel"
+  text: "DefUI"
+  font: "font"
+  id: "button_toggle/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -164,7 +164,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "button_toggle/larrybutton"
+  parent: "button_toggle/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -247,7 +247,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "button/larrybutton"
+  id: "button/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -301,9 +301,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Dirty Larry"
-  font: "larryfont"
-  id: "button/larrylabel"
+  text: "DefUI"
+  font: "font"
+  id: "button/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -321,7 +321,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "button/larrybutton"
+  parent: "button/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -1537,7 +1537,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "button_print/larrybutton"
+  id: "button_print/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -1593,8 +1593,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Print Values"
-  font: "larryfont"
-  id: "button_print/larrylabel"
+  font: "font"
+  id: "button_print/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -1612,7 +1612,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "button_print/larrybutton"
+  parent: "button_print/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -1697,7 +1697,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "checkbox/checkbox_normal"
-  id: "checkbox_a/larrycheckbox"
+  id: "checkbox_a/checkbox"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -1752,8 +1752,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Label"
-  font: "larryfont"
-  id: "checkbox_a/larrylabel"
+  font: "font"
+  id: "checkbox_a/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W
@@ -1856,7 +1856,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "radio/radio_normal"
-  id: "radio_a/larryradio"
+  id: "radio_a/radio"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -1911,8 +1911,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Radio A"
-  font: "larryfont"
-  id: "radio_a/larrylabel"
+  font: "font"
+  id: "radio_a/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W
@@ -2015,7 +2015,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "radio/radio_normal"
-  id: "radio_b/larryradio"
+  id: "radio_b/radio"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -2070,8 +2070,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Radio B"
-  font: "larryfont"
-  id: "radio_b/larrylabel"
+  font: "font"
+  id: "radio_b/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W
@@ -2174,7 +2174,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "radio/radio_normal"
-  id: "radio_c/larryradio"
+  id: "radio_c/radio"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -2229,8 +2229,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Radio 3"
-  font: "larryfont"
-  id: "radio_c/larrylabel"
+  font: "font"
+  id: "radio_c/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W
@@ -2333,7 +2333,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "checkbox/checkbox_normal"
-  id: "checkbox_b/larrycheckbox"
+  id: "checkbox_b/checkbox"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -2388,8 +2388,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Another checkbox"
-  font: "larryfont"
-  id: "checkbox_b/larrylabel"
+  font: "font"
+  id: "checkbox_b/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W
@@ -2981,7 +2981,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button/larrybutton"
+  id: "scrollarea_button/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3036,8 +3036,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "1"
-  font: "larryfont"
-  id: "scrollarea_button/larrylabel"
+  font: "font"
+  id: "scrollarea_button/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3055,7 +3055,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button/larrybutton"
+  parent: "scrollarea_button/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3140,7 +3140,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button1/larrybutton"
+  id: "scrollarea_button1/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3194,9 +3194,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Dirty Larry"
-  font: "larryfont"
-  id: "scrollarea_button1/larrylabel"
+  text: "DefUI"
+  font: "font"
+  id: "scrollarea_button1/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3214,7 +3214,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button1/larrybutton"
+  parent: "scrollarea_button1/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3298,7 +3298,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button2/larrybutton"
+  id: "scrollarea_button2/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3353,8 +3353,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "3"
-  font: "larryfont"
-  id: "scrollarea_button2/larrylabel"
+  font: "font"
+  id: "scrollarea_button2/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3372,7 +3372,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button2/larrybutton"
+  parent: "scrollarea_button2/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3457,7 +3457,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button3/larrybutton"
+  id: "scrollarea_button3/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3512,8 +3512,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "4"
-  font: "larryfont"
-  id: "scrollarea_button3/larrylabel"
+  font: "font"
+  id: "scrollarea_button3/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3531,7 +3531,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button3/larrybutton"
+  parent: "scrollarea_button3/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3616,7 +3616,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button4/larrybutton"
+  id: "scrollarea_button4/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3671,8 +3671,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "5"
-  font: "larryfont"
-  id: "scrollarea_button4/larrylabel"
+  font: "font"
+  id: "scrollarea_button4/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3690,7 +3690,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button4/larrybutton"
+  parent: "scrollarea_button4/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3775,7 +3775,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button5/larrybutton"
+  id: "scrollarea_button5/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3830,8 +3830,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "6"
-  font: "larryfont"
-  id: "scrollarea_button5/larrylabel"
+  font: "font"
+  id: "scrollarea_button5/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3849,7 +3849,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button5/larrybutton"
+  parent: "scrollarea_button5/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -3934,7 +3934,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button6/larrybutton"
+  id: "scrollarea_button6/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -3989,8 +3989,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "7"
-  font: "larryfont"
-  id: "scrollarea_button6/larrylabel"
+  font: "font"
+  id: "scrollarea_button6/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4008,7 +4008,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button6/larrybutton"
+  parent: "scrollarea_button6/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -4093,7 +4093,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button7/larrybutton"
+  id: "scrollarea_button7/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4148,8 +4148,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "8"
-  font: "larryfont"
-  id: "scrollarea_button7/larrylabel"
+  font: "font"
+  id: "scrollarea_button7/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4167,7 +4167,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button7/larrybutton"
+  parent: "scrollarea_button7/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -4252,7 +4252,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button8/larrybutton"
+  id: "scrollarea_button8/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4307,8 +4307,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "9"
-  font: "larryfont"
-  id: "scrollarea_button8/larrylabel"
+  font: "font"
+  id: "scrollarea_button8/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4326,7 +4326,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button8/larrybutton"
+  parent: "scrollarea_button8/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -4411,7 +4411,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
-  id: "scrollarea_button9/larrybutton"
+  id: "scrollarea_button9/button"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4466,8 +4466,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "10"
-  font: "larryfont"
-  id: "scrollarea_button9/larrylabel"
+  font: "font"
+  id: "scrollarea_button9/label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -4485,7 +4485,7 @@ nodes {
   }
   adjust_mode: ADJUST_MODE_FIT
   line_break: false
-  parent: "scrollarea_button9/larrybutton"
+  parent: "scrollarea_button9/button"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
@@ -4550,6 +4550,273 @@ nodes {
   alpha: 1.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
+}
+nodes {
+  position {
+    x: 298.56
+    y: 598.886
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  type: TYPE_TEMPLATE
+  id: "template"
+  layer: ""
+  inherit_alpha: true
+  alpha: 1.0
+  template: "/defui/themes/light_ui/widgets/input.gui"
+  template_node_child: false
+}
+nodes {
+  position {
+    x: -13.775061
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 400.0
+    y: 72.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  type: TYPE_BOX
+  blend_mode: BLEND_MODE_ALPHA
+  texture: "button/button_pressed"
+  id: "template/bg"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_W
+  adjust_mode: ADJUST_MODE_FIT
+  parent: "template"
+  layer: ""
+  inherit_alpha: true
+  slice9 {
+    x: 32.0
+    y: 32.0
+    z: 32.0
+    w: 32.0
+  }
+  clipping_mode: CLIPPING_MODE_NONE
+  clipping_visible: true
+  clipping_inverted: false
+  alpha: 1.0
+  template_node_child: true
+  size_mode: SIZE_MODE_MANUAL
+}
+nodes {
+  position {
+    x: 13.0
+    y: 3.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 0.0
+    y: 32.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 0.18431373
+    y: 0.18431373
+    z: 0.18431373
+    w: 1.0
+  }
+  type: TYPE_BOX
+  blend_mode: BLEND_MODE_ALPHA
+  texture: ""
+  id: "template/inner"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_W
+  adjust_mode: ADJUST_MODE_FIT
+  parent: "template/bg"
+  layer: ""
+  inherit_alpha: true
+  slice9 {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 0.0
+  }
+  clipping_mode: CLIPPING_MODE_STENCIL
+  clipping_visible: true
+  clipping_inverted: false
+  alpha: 0.0
+  template_node_child: true
+  size_mode: SIZE_MODE_MANUAL
+}
+nodes {
+  position {
+    x: 8.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 0.0
+    y: 48.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 0.3254902
+    y: 0.6666667
+    z: 0.9960785
+    w: 1.0
+  }
+  type: TYPE_BOX
+  blend_mode: BLEND_MODE_ALPHA
+  texture: ""
+  id: "template/cursor"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_W
+  adjust_mode: ADJUST_MODE_FIT
+  parent: "template/inner"
+  layer: ""
+  inherit_alpha: false
+  slice9 {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 0.0
+  }
+  clipping_mode: CLIPPING_MODE_NONE
+  clipping_visible: true
+  clipping_inverted: false
+  alpha: 1.0
+  template_node_child: true
+  size_mode: SIZE_MODE_MANUAL
+}
+nodes {
+  position {
+    x: 4.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 200.0
+    y: 32.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  type: TYPE_TEXT
+  blend_mode: BLEND_MODE_ALPHA
+  text: "Empty"
+  font: "font"
+  id: "template/content"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_W
+  outline {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  adjust_mode: ADJUST_MODE_FIT
+  line_break: false
+  parent: "template/inner"
+  layer: ""
+  inherit_alpha: false
+  alpha: 1.0
+  outline_alpha: 1.0
+  shadow_alpha: 1.0
+  template_node_child: true
+  text_leading: 1.0
+  text_tracking: 0.0
 }
 material: "/defui/defui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT

@@ -1,6 +1,6 @@
 script: ""
 fonts {
-  name: "larryfont"
+  name: "font"
   font: "/defui/defui_font.font"
 }
 textures {
@@ -47,7 +47,7 @@ nodes {
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
   texture: "radio/radio_normal"
-  id: "larryradio"
+  id: "radio"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -101,8 +101,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Label"
-  font: "larryfont"
-  id: "larrylabel"
+  font: "font"
+  id: "label"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_W

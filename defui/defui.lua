@@ -56,8 +56,8 @@ end
 
 function defui.button(self, node, action_id, action, cb)
 
-    local node_bg = gui.get_node(node .. "/larrybutton")
-    local node_label = gui.get_node(node .. "/larrylabel")
+    local node_bg = gui.get_node(node .. "/button")
+    local node_label = gui.get_node(node .. "/label")
 
     local label_p = vmath.vector3(0.0)
     local flipbook = "button_normal"
@@ -81,8 +81,8 @@ function defui.checkbox(self, node, action_id, action, value)
 
     local checked = value
 
-    local node_bg = gui.get_node(node .. "/larrycheckbox")
-    local node_label = gui.get_node(node .. "/larrylabel")
+    local node_bg = gui.get_node(node .. "/checkbox")
+    local node_label = gui.get_node(node .. "/label")
 
     local hit = hit_test(self, node_bg, action_id, action) or hit_test(self, node_label, action_id, action)
     if hit and action.released then
@@ -96,8 +96,8 @@ end
 
 function defui.radio(self, node, action_id, action, id, value)
 
-    local node_bg = gui.get_node(node .. "/larryradio")
-    local node_label = gui.get_node(node .. "/larrylabel")
+    local node_bg = gui.get_node(node .. "/radio")
+    local node_label = gui.get_node(node .. "/label")
 
     local hit = hit_test(self, node_bg, action_id, action) or hit_test(self, node_label, action_id, action)
     if hit and action.released then

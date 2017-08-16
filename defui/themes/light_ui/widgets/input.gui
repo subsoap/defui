@@ -1,6 +1,6 @@
 script: ""
 fonts {
-  name: "larryfont"
+  name: "font"
   font: "/defui/defui_font.font"
 }
 textures {
@@ -211,7 +211,7 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Empty"
-  font: "larryfont"
+  font: "font"
   id: "content"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
